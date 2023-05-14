@@ -4,8 +4,8 @@
 
 Clone this project, add your environment variables (googleAuth\nextAuth\mongoDB).
 
-npm i
-npm run dev
+`npm i`
+`npm run dev`
 
 ### Folder Structure
  
