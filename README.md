@@ -1,5 +1,7 @@
 # Stupidopia - full stack app using the Next 13
 
+See here - https://stupidopia.vercel.app
+
 ### Next.js 13 Client/Server components, file-based routing (including dynamic and nested routes), serverless route handlers, metadata and search engine optimization (SEO), mongoDB, google Auth2.0 api
 
 Clone this project, add your environment variables (googleAuth\nextAuth\mongoDB).
