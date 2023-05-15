@@ -22,7 +22,8 @@ const Nav = () => {
     <nav className='flex-between w-full mb-16 pt-3'>
       <Link href='/' className='flex gap-2 flex-center'>
         <Image
-          src='/assets/images/liOn.png'
+          src={session?.user ? '/assets/images/liOn.png' : '/assets/images/liOff.png'}
+          // src={session?.user ? '/assets/images/eyesOn.png' : '/assets/images/eyesOff.png'}
           alt='logo Тупильник'
           width={30}
           height={30}
@@ -31,7 +32,8 @@ const Nav = () => {
         <p className='logo_text'>Тупильник</p>
       </Link>
 
-      {/* Desktop Navigation */}
+      {/* десктоп */}
+			
       <div className='sm:flex hidden'>
         {session?.user ? (
           <div className='flex gap-3 md:gap-5'>
@@ -72,7 +74,7 @@ const Nav = () => {
         )}
       </div>
 
-      {/* Mobile Navigation */}
+      {/* мобилка */}
       <div className='sm:hidden flex relative'>
         {session?.user ? (
           <div className='flex'>

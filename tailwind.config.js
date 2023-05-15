@@ -10,10 +10,11 @@ module.exports = {
       fontFamily: {
         satoshi: ['Satoshi', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
+        ibm: ['IBM Plex Mono', 'monospace'],
       },
       colors: {
         'primary-orange': '#FF5722',
-      }
+      },
     },
   },
   plugins: [],

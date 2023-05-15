@@ -23,3 +23,8 @@ Clone this project, add your environment variables (googleAuth\nextAuth\mongoDB)
 | `/components`       						 	| React components    																					|
 
 
+![Screenshot 1](/public/assets/present/shot1.jpg)
+
+![Screenshot 2](/public/assets/present/shot2.jpg)
+
+![Screenshot 3](/public/assets/present/shot3.jpg)
