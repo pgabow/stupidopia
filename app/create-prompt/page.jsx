@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
+import { sendMessageToTelegram } from "../../utils/sendMessageToTelegram"
 
 import Form from "@components/Form";
 
@@ -28,6 +29,7 @@ const CreatePrompt = () => {
       });
 
       if (response.ok) {
+				sendMessageToTelegram(`Юзер ${session?.user.name} создал псто - '${post.prompt}'`)
         router.push("/");
       }
     } catch (error) {
